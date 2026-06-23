@@ -1,0 +1,62 @@
+# KiCad gitignore
+
+# Backup files
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.pro-bak
+_saved_*
+
+# Auto-saved files
+\#auto_saved_files\#
+*.000
+
+# Exported BOM and netlist (regenerated)
+*.net
+*.xml
+
+# Lock files
+*.lck
+~*.lck
+fp-info-cache
+
+# KiCad temporary / cache
+*.kicad_prl
+*.tmp
+.history
+
+# Project local settings (user-specific)
+# Uncomment if you don't want to share local project settings
+# *.kicad_pro
+
+# Gerber / fabrication output (regenerated)
+*.gbr
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.drl
+*.gm1
+gerbers/
+gerber/
+*.zip
+
+# 3D render outputs
+*.png-bak
+*.wrl-bak
+
+# Simulation
+*.raw
+*.sim
+spice/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
