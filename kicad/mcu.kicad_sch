@@ -3765,6 +3765,54 @@
 			)
 		)
 	)
+	(global_label "USB_HS_D-"
+		(shape bidirectional)
+		(at 175.26 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "337bf24a-986b-4cac-9d35-70ae07fe63ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4841 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_HS_D+"
+		(shape bidirectional)
+		(at 175.26 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d1fd0e9-8c63-4039-b311-d28b5f6c1aa5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4841 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MUX_S0"
 		(shape output)
 		(at 119.38 66.04 180)
@@ -3826,6 +3874,30 @@
 		(uuid "9caca3b6-58e9-4757-b6c1-500f8edd93bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.0423 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS_SENSE"
+		(shape input)
+		(at 175.26 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9a7c6ab-7b6a-492f-8256-054b5eb77d83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.2702 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

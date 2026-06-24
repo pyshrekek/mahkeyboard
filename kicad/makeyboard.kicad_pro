@@ -648,7 +648,7 @@
         "uuid": "fdf51568-632f-4761-8398-b51798d1e133"
       }
     ],
-    "used_designators": "C_filt1-77,U3-85,R_filt1-77,P1,R2-6,#PWR26-300,C10-37,SW1,J1,C_dec1-77",
+    "used_designators": "C_filt1-77,U3-86,R_filt1-77,P1,R2-8,#PWR26-305,C10-40,SW1,J1,C_dec1-77",
     "variants": []
   },
   "sheets": [
