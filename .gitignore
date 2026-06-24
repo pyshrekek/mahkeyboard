@@ -1,4 +1,4 @@
-# KiCad gitignore
+# ===== KiCad =====
 
 # Backup files
 *.bak
@@ -56,7 +56,45 @@ gerber/
 *.sim
 spice/
 
-# OS files
+# ===== STM32CubeMX / STM32CubeIDE =====
+
+# Build artifacts
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+
+# STM32CubeIDE / Eclipse project files (project-specific, optional)
+.metadata/
+.settings/
+*.launch
+
+# CubeMX backup/log files
+*.ioc.bak
+*_CubeMX.log
+STM32CubeMX.log
+
+# Toolchain / dependency caches
+*.d
+*.su
+*.cyclo
+
+# ===== Shared / OS / Editor =====
+
 .DS_Store
 Thumbs.db
 desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
