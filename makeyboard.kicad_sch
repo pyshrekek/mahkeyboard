@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 69.215 80.645)
-		(size 12.7 3.81)
+		(at 67.945 24.765)
+		(size 97.79 47.625)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "09615ad3-ae97-45a3-ad21-d8d1fc65895c")
 		(property "Sheetname" "MCU"
-			(at 69.215 79.9334 0)
+			(at 67.945 24.0534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 69.215 85.0396 0)
+			(at 67.945 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 115.57 54.61)
-		(size 36.83 27.305)
+		(at 26.035 70.485)
+		(size 34.925 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "1b2cad53-de04-451b-ba10-a1cb5e1de9df")
 		(property "Sheetname" "USB"
-			(at 115.57 53.8984 0)
+			(at 26.035 69.7734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 115.57 82.4996 0)
+			(at 26.035 105.3596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 55.245 133.35)
-		(size 18.415 21.59)
+		(at 26.035 111.76)
+		(size 34.925 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "5480a78e-af53-4851-8144-525cdc30e713")
 		(property "Sheetname" "RGB"
-			(at 55.245 132.6384 0)
+			(at 26.035 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB.kicad_sch"
-			(at 55.245 155.5246 0)
+			(at 26.035 170.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 57.785 114.3)
-		(size 12.7 3.81)
+		(at 67.945 79.375)
+		(size 97.79 71.12)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "5788245b-dd30-4059-a0e3-ec1ac3c9061c")
 		(property "Sheetname" "Analog"
-			(at 57.785 113.5884 0)
+			(at 67.945 78.6634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 57.785 118.6946 0)
+			(at 67.945 151.0796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,8 +190,8 @@
 		)
 	)
 	(sheet
-		(at 163.195 127.635)
-		(size 12.7 3.81)
+		(at 175.895 24.765)
+		(size 55.245 57.785)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +206,7 @@
 		)
 		(uuid "6aa1d513-8f2e-4453-9531-d9c57e91f5e1")
 		(property "Sheetname" "Display"
-			(at 163.195 126.9234 0)
+			(at 175.895 24.0534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 163.195 132.0296 0)
+			(at 175.895 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -236,8 +236,8 @@
 		)
 	)
 	(sheet
-		(at 47.625 32.385)
-		(size 27.305 22.225)
+		(at 26.035 24.765)
+		(size 34.925 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -252,7 +252,7 @@
 		)
 		(uuid "9f73cc06-7f97-4447-8ebc-51a6522f153e")
 		(property "Sheetname" "Power"
-			(at 47.625 31.6734 0)
+			(at 26.035 24.0534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -263,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 47.625 55.1946 0)
+			(at 26.035 63.4496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
