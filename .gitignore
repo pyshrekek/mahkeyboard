@@ -7,7 +7,7 @@
 *.kicad_sch-bak
 *.sch-bak
 *.pro-bak
-_saved_*
+*.log
 
 # Auto-saved files
 \#auto_saved_files\#
@@ -25,7 +25,7 @@ fp-info-cache
 # KiCad temporary / cache
 *.kicad_prl
 *.tmp
-.history
+/.history
 
 # Project local settings (user-specific)
 # Uncomment if you don't want to share local project settings

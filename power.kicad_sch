@@ -1953,6 +1953,18 @@
 		)
 	)
 	(rectangle
+		(start 108.585 160.02)
+		(end 137.795 189.865)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "07bc5537-08e6-41fd-87ab-af1cf0fd7f7d")
+	)
+	(rectangle
 		(start 53.34 160.02)
 		(end 73.025 189.865)
 		(stroke
@@ -2164,6 +2176,16 @@
 		)
 		(uuid "6c0e692f-bdf7-405f-94f5-f0c2dd31cd58")
 	)
+	(text "VDDPHYHS Decoupling"
+		(exclude_from_sim no)
+		(at 120.396 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7121fc1d-720e-41b2-9696-467d8485b800")
+	)
 	(text "VREF Decoupling"
 		(exclude_from_sim no)
 		(at 85.09 162.306 0)
@@ -2319,6 +2341,12 @@
 		(uuid "795cc66f-d8f8-4114-ab4d-c6d45e11b137")
 	)
 	(junction
+		(at 114.3 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c6eb0be-57d9-46bf-a6ce-93727fbfa96d")
+	)
+	(junction
 		(at 116.84 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2383,6 +2411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d13406a3-2252-4d32-8857-712d1c2d6c59")
+	)
+	(junction
+		(at 114.3 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e93824e8-e7fc-4697-8d7e-5d72e753c9cb")
 	)
 	(junction
 		(at 81.28 171.45)
@@ -2485,6 +2519,16 @@
 			(type default)
 		)
 		(uuid "26697f7d-bbff-4c2a-b2f1-d62bb5ceebf7")
+	)
+	(wire
+		(pts
+			(xy 114.3 171.45) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2774bfa0-bf01-4bf8-81fe-f2cde7693e15")
 	)
 	(wire
 		(pts
@@ -2665,6 +2709,16 @@
 			(type default)
 		)
 		(uuid "a384f180-de0a-4c6b-bed1-28f58313ff57")
+	)
+	(wire
+		(pts
+			(xy 114.3 179.07) (xy 128.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5ce7a9-acc3-4330-927f-6ac2deb1d4c3")
 	)
 	(wire
 		(pts
@@ -4967,6 +5021,166 @@
 			(project "makeyboard"
 				(path "/fdf51568-632f-4761-8398-b51798d1e133/9f73cc06-7f97-4447-8ebc-51a6522f153e"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.3 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c1f13a-2b21-4459-b53e-a9e9204a5532")
+		(property "Reference" "#PWR053"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VUSB"
+			(at 114.3 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e0a9f09-6d11-43e7-9aa8-97f8f08e07bd")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/9f73cc06-7f97-4447-8ebc-51a6522f153e"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58df4c13-c578-4c32-b91d-e7ab38fb6dbd")
+		(property "Reference" "C31"
+			(at 118.11 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 118.11 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.2652 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bcb1ebd1-55de-4ee7-aeca-b7ec4021ae8d")
+		)
+		(pin "1"
+			(uuid "da6a0740-0c29-4b7c-8a9e-dfbfdbe3b9d4")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/9f73cc06-7f97-4447-8ebc-51a6522f153e"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7684,6 +7898,166 @@
 			(project "makeyboard"
 				(path "/fdf51568-632f-4761-8398-b51798d1e133/9f73cc06-7f97-4447-8ebc-51a6522f153e"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaea6eac-ecbc-4cf1-8dd0-5291ec11d869")
+		(property "Reference" "C32"
+			(at 132.08 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 132.08 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.2352 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b4b8b3b-c758-447d-80d1-ed628477f46c")
+		)
+		(pin "1"
+			(uuid "8899717d-327e-4768-9c57-1250e6ae2f32")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/9f73cc06-7f97-4447-8ebc-51a6522f153e"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 114.3 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edfcc54f-61fd-4265-9cc7-1693cc3224a3")
+		(property "Reference" "#PWR054"
+			(at 114.3 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 114.3 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 114.3 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5c243a6-65b6-4a9f-9e8e-dd5145384afb")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/9f73cc06-7f97-4447-8ebc-51a6522f153e"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

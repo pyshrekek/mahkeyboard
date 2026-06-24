@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c4035c16-7301-4782-a0c3-c8491f094d05")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "S3"
+		(shape input)
+		(at 162.56 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fe64c8d-45fa-4849-ae03-7809cebcaae6")
+	)
+	(hierarchical_label "S2"
+		(shape input)
+		(at 162.56 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50ce4a19-3b40-408b-b21b-faa1699bd9d9")
+	)
+	(hierarchical_label "S1"
+		(shape input)
+		(at 162.56 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cff9a4e-28c3-4645-be3b-ca7921434c04")
+	)
+	(hierarchical_label "S0"
+		(shape input)
+		(at 162.56 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf7d7cf4-ca37-42b3-bbbf-e298ec690387")
+	)
+	(hierarchical_label "MUX_OUT"
+		(shape output)
+		(at 162.56 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfc4db77-d1c2-4d81-a390-d80fe417aa7b")
+	)
+	(sheet
+		(at 90.17 48.895)
+		(size 31.75 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2d06b65a-b669-4d4f-8ac4-72332836ab2d")
+		(property "Sheetname" "sensor"
+			(at 90.17 48.1834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 90.17 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5788245b-dd30-4059-a0e3-ec1ac3c9061c/a18b2512-9b81-4a12-b045-4fec9a708b34"
+					(page "9")
+				)
+			)
+		)
+	)
+)

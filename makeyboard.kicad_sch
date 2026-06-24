@@ -124,7 +124,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RGB.kicad_sch"
+		(property "Sheetfile" "rgb.kicad_sch"
 			(at 26.035 170.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
