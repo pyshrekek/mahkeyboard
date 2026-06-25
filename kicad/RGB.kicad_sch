@@ -4,5 +4,8184 @@
 	(generator_version "10.0")
 	(uuid "a9c570ae-4a2d-4f7e-8d9c-6a7e46e3d60d")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logic_LevelTranslator:SN74LVC1T45DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1T45DBV"
+				(at 3.81 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+				(at -22.86 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC1T45DBV_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.016 -1.778) (xy 1.016 -2.032) (xy -0.762 -1.016) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC1T45DBV_1_1"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5VL"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VL"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VL\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VL_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "RGB = TIM1_CH1 + DMA background; never in 125 µs scan loop.\nInject +5V_LED at multiple points; bulk 100-470 µF at injection.\nKeep RGB power/switching away from analog front end; separate returns."
+		(exclude_from_sim no)
+		(at 22.098 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c5494a8-2d39-46b9-bd68-81ddddf4d385")
+	)
+	(junction
+		(at 69.85 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8043cb10-f59c-4cef-abc2-8722f26b65a7")
+	)
+	(junction
+		(at 62.23 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82115b54-24af-4f4a-b0ed-bca5a86c31f0")
+	)
+	(wire
+		(pts
+			(xy 194.31 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00338032-5457-4f02-8f47-c0f6396873b3")
+	)
+	(wire
+		(pts
+			(xy 148.59 119.38) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d1667e-df22-4da3-97cc-d01ffc8aaf96")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 88.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b86df4-127b-4c02-9a69-c0bedbd5412b")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b637b23-af1f-49ea-a065-a6778d0e1a4d")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c8ddc8-0b4e-4a2e-bdc2-bcf185d31f05")
+	)
+	(wire
+		(pts
+			(xy 171.45 157.48) (xy 180.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140e329f-0397-4dc9-885d-180c38a7206b")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1728cfce-39a0-48a6-ab35-69aa7b97e7eb")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1777af5b-4ecc-4328-9dda-f47078c4aac4")
+	)
+	(wire
+		(pts
+			(xy 171.45 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d82a96-b5f4-4b9f-b9fe-ca74dbc08647")
+	)
+	(wire
+		(pts
+			(xy 194.31 157.48) (xy 203.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6638cf-9fa1-4fc6-b112-bbbd5d2dd40b")
+	)
+	(wire
+		(pts
+			(xy 194.31 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebace00-2748-4de6-b62a-3060e4491170")
+	)
+	(wire
+		(pts
+			(xy 217.17 144.78) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed8e691-6c5e-49e0-b9a1-e25f4e8dc10b")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256d9a8b-44bd-4d28-a070-5baf358874c3")
+	)
+	(wire
+		(pts
+			(xy 152.4 191.77) (xy 152.4 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0afec9-106f-4e26-a9d3-22883a35ceb9")
+	)
+	(wire
+		(pts
+			(xy 57.15 92.71) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30422c5c-88a0-441e-a755-140e34f24aaa")
+	)
+	(wire
+		(pts
+			(xy 171.45 78.74) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307e5f65-331a-4b36-b97f-edba31cf44ae")
+	)
+	(wire
+		(pts
+			(xy 102.87 157.48) (xy 111.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a50190-3189-4260-a3e6-2930779b36a2")
+	)
+	(wire
+		(pts
+			(xy 217.17 132.08) (xy 226.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31af0b22-063a-4f43-aaba-801c1aa1fddf")
+	)
+	(wire
+		(pts
+			(xy 34.29 119.38) (xy 43.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36656f48-56a1-43e3-bcfe-f6d96ddaf05c")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3792dd16-54f4-47cc-ae85-daf3b5b25ac1")
+	)
+	(wire
+		(pts
+			(xy 217.17 119.38) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3871e78f-e552-4a79-97c4-9c465195c8e4")
+	)
+	(wire
+		(pts
+			(xy 63.5 36.83) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f265408-ae5f-459d-a1a1-5c60f89f4c77")
+	)
+	(wire
+		(pts
+			(xy 217.17 157.48) (xy 226.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409ceb8e-e9be-415d-96c0-81224be6c9df")
+	)
+	(wire
+		(pts
+			(xy 102.87 144.78) (xy 111.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41502bca-08a9-4757-a2b7-34963cd1f407")
+	)
+	(wire
+		(pts
+			(xy 34.29 144.78) (xy 43.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bbe084-5036-405c-bf9d-faf09d377d9a")
+	)
+	(wire
+		(pts
+			(xy 102.87 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a5c1f4-c39b-43e8-94b6-077df213ad84")
+	)
+	(wire
+		(pts
+			(xy 171.45 144.78) (xy 180.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545cc56d-8c85-4a0d-9a4d-3658bcbe4b43")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5615892d-3bd8-4c2c-89b3-045a36e63718")
+	)
+	(wire
+		(pts
+			(xy 57.15 144.78) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58025f0a-e946-4148-89a2-806caf7e9ddf")
+	)
+	(wire
+		(pts
+			(xy 34.29 171.45) (xy 43.18 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b0adeb-53ed-4385-bbc1-a7477962e1cc")
+	)
+	(wire
+		(pts
+			(xy 34.29 157.48) (xy 43.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f57097b-1b59-4995-af68-591779a64254")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692f0211-d612-4d9a-ad66-6cd9d5e5876d")
+	)
+	(wire
+		(pts
+			(xy 34.29 132.08) (xy 43.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c254806-31b0-4605-8aac-8e6ec3c92d11")
+	)
+	(wire
+		(pts
+			(xy 69.85 36.83) (xy 78.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc3963a-e76b-4f70-b591-dd28e8564ba1")
+	)
+	(wire
+		(pts
+			(xy 62.23 34.29) (xy 62.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e02adf7-d96c-41b3-9da0-59c08b4d72c6")
+	)
+	(wire
+		(pts
+			(xy 34.29 92.71) (xy 43.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff6bf68-58e2-4a08-bda3-86501492397a")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f550b5-522c-43d2-bdc0-135e7e452f15")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 38.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75128fbc-6e90-47f9-9641-24fdb6af7597")
+	)
+	(wire
+		(pts
+			(xy 125.73 144.78) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c62ab7-3877-47d1-b452-bfbad4e7d3c7")
+	)
+	(wire
+		(pts
+			(xy 125.73 78.74) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e491c0-e8f9-4659-9d85-29296805404a")
+	)
+	(wire
+		(pts
+			(xy 148.59 132.08) (xy 157.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7627e800-8407-47cb-b8fe-a1173783677f")
+	)
+	(wire
+		(pts
+			(xy 102.87 171.45) (xy 111.76 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c94d73c-6015-4b27-81f0-0a04ebd1b047")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81084637-e434-419c-a6a8-c5fdca5a7393")
+	)
+	(wire
+		(pts
+			(xy 69.85 34.29) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a13a330-0574-43d1-95ef-5bef122cf59a")
+	)
+	(wire
+		(pts
+			(xy 171.45 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908f3cfa-4611-4297-b6f7-c29cf583329e")
+	)
+	(wire
+		(pts
+			(xy 57.15 132.08) (xy 66.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af54dc7-2afe-4013-a827-99a5354829f0")
+	)
+	(wire
+		(pts
+			(xy 171.45 92.71) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfe8381-b937-44cf-a4e5-43e442d84f49")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 226.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc95db6-6541-4633-af5e-43e09137c665")
+	)
+	(wire
+		(pts
+			(xy 194.31 132.08) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c4e317-3966-4bc1-922f-d4d838af82c4")
+	)
+	(wire
+		(pts
+			(xy 80.01 132.08) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12924a6-2d40-47b5-9f89-6812a78b8435")
+	)
+	(wire
+		(pts
+			(xy 57.15 171.45) (xy 66.04 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72b1e1a-ec3c-45d4-a090-534bc5a8e27a")
+	)
+	(wire
+		(pts
+			(xy 53.34 36.83) (xy 62.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a40815-2aea-4774-9dbd-e2bba7be2b18")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac52e06b-ee15-4664-b6d1-641225332377")
+	)
+	(wire
+		(pts
+			(xy 34.29 78.74) (xy 43.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0b4da6-e352-4c8d-8d56-35d805df6d0d")
+	)
+	(wire
+		(pts
+			(xy 52.07 60.96) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b065425a-97f8-4c7e-a9eb-57eb446b24b6")
+	)
+	(wire
+		(pts
+			(xy 80.01 92.71) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c78be0-2368-4e9d-93e8-b339f40946b4")
+	)
+	(wire
+		(pts
+			(xy 194.31 144.78) (xy 203.2 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d353ce-fc3e-40e7-8016-e72df6c871fb")
+	)
+	(wire
+		(pts
+			(xy 34.29 106.68) (xy 43.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b584d6c6-22bb-4752-9498-707034d3d0cb")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83dfa77-f20d-411d-99b6-89316f34f2b6")
+	)
+	(wire
+		(pts
+			(xy 125.73 132.08) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b4923a-2e74-45fc-9b4c-ea65963fa18b")
+	)
+	(wire
+		(pts
+			(xy 62.23 36.83) (xy 63.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc453782-94ed-4b0c-83a0-886039b6e695")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf58428b-ada4-47ba-978c-36dd8877c253")
+	)
+	(wire
+		(pts
+			(xy 57.15 106.68) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c2ed3d-4433-4d71-81f2-bf5c04872eac")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2db68fa-05b2-424c-b0ac-9946b4ac9f00")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36c7d8d-fafb-4bc8-9128-5bc7c6910fe6")
+	)
+	(wire
+		(pts
+			(xy 80.01 157.48) (xy 88.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c892fc1b-5f7d-40ff-bb24-f09c1c1357b4")
+	)
+	(wire
+		(pts
+			(xy 217.17 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdca5bde-b408-4a90-a0c2-b148b497a867")
+	)
+	(wire
+		(pts
+			(xy 125.73 157.48) (xy 134.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffd33bc-eb26-408a-b475-015623b4020a")
+	)
+	(wire
+		(pts
+			(xy 80.01 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d674df8a-fd37-4a75-91fb-6091e1448826")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a38347-62f6-4a1c-beb5-36ea76e96117")
+	)
+	(wire
+		(pts
+			(xy 102.87 119.38) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b75ba9-58c5-46cb-b2f3-0a2445c5064f")
+	)
+	(wire
+		(pts
+			(xy 148.59 157.48) (xy 157.48 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e039d657-2148-457f-9d51-da45ef78f7f7")
+	)
+	(wire
+		(pts
+			(xy 171.45 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e446c2fe-0a23-4f27-ae31-4de88cce43b1")
+	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61efe6d-0ab4-4e9e-9194-bef462373f34")
+	)
+	(wire
+		(pts
+			(xy 57.15 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65059fc-4592-4254-bc19-4fe34f0d91a6")
+	)
+	(wire
+		(pts
+			(xy 102.87 132.08) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ae1c70-8e83-432e-a714-6f4479190775")
+	)
+	(wire
+		(pts
+			(xy 80.01 171.45) (xy 88.9 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3e6462-71b2-4ef0-8232-068bbd9f65d2")
+	)
+	(wire
+		(pts
+			(xy 148.59 144.78) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b9d514-7c71-4fe8-90ff-7348d15b0f5e")
+	)
+	(wire
+		(pts
+			(xy 148.59 171.45) (xy 157.48 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35eccd7-9773-416f-9d15-d3d42c65c0bc")
+	)
+	(wire
+		(pts
+			(xy 125.73 171.45) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7eba639-bb28-4989-b74b-355e0eed79ea")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4b1cfe-91b6-4620-9ba7-0b025aea6178")
+	)
+	(wire
+		(pts
+			(xy 217.17 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb348269-fd8c-4b07-b840-fb825d07856e")
+	)
+	(label "LED00"
+		(at 76.2 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12da57b5-f071-4177-9d29-e2a8a3662530")
+	)
+	(label "LED10"
+		(at 19.05 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24581c4c-75fb-4ddd-b30e-40ebf0e6ca17")
+	)
+	(label "LED_TEST_POINT"
+		(at 152.4 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b1f3fdb-9ac3-42e9-9a68-ef60bde07acd")
+	)
+	(label "LED60"
+		(at 19.05 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d21e9ef-a813-4d9e-a960-511ba46c3765")
+	)
+	(label "LED30"
+		(at 19.05 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42d8446c-c538-429f-b2e2-a7c6f07817b2")
+	)
+	(label "LED70"
+		(at 240.03 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b31d3ad-44e1-4cae-94f1-fe124d921a1d")
+	)
+	(label "LED70"
+		(at 19.05 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e5c3e72-2b86-4274-abd5-c66ca495f931")
+	)
+	(label "LED50"
+		(at 19.05 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "578660cb-4d9d-46c0-971a-6f6291eb097a")
+	)
+	(label "LED40"
+		(at 240.03 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5822c2ae-a1ca-46f5-8287-0181488a8790")
+	)
+	(label "LED40"
+		(at 19.05 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e1adf8c-5440-4994-88b1-e2bf1c410a9f")
+	)
+	(label "LED60"
+		(at 240.03 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "712a4888-39ff-4c6c-8a14-5cce25358df6")
+	)
+	(label "LED00"
+		(at 19.05 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b5508d6-8699-4f6b-8fbc-1dfd256c4970")
+	)
+	(label "LED10"
+		(at 240.03 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99325b4c-8305-4c4d-a7f5-88490e839907")
+	)
+	(label "LED20"
+		(at 19.05 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99962682-843c-4d68-8ecc-86e0c2c7aeb1")
+	)
+	(label "LED50"
+		(at 240.03 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2ddb97b-6a98-41b2-9921-234ef6fc4f3d")
+	)
+	(label "LED20"
+		(at 240.03 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da46c14f-78ce-4007-8b04-0211f25f3778")
+	)
+	(label "LED_TEST_POINT"
+		(at 171.45 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de68f1be-4acb-4b08-b35a-6a4c6b36c946")
+	)
+	(label "LED30"
+		(at 240.03 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed30dff3-a128-41b6-90ec-200c78e08c36")
+	)
+	(global_label "RGB_DAT"
+		(shape input)
+		(at 34.29 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9205e13c-20dc-453b-91c9-dbbc49058b69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.201 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25db7402-3fd5-4340-b479-76b795c91f85")
+		(property "Reference" "#PWR0314"
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d652c10d-5c85-43fa-9ee7-315e1eb09d1f")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "273f7c7e-2204-4f22-8e41-420a14ecc49f")
+		(property "Reference" "TP1"
+			(at 154.94 182.1179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 184.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13347ca5-16c1-4d93-a652-41c7c58c8e56")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VL")
+		(at 69.85 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b948b1-c0c6-4fb0-91bd-a3105880c39f")
+		(property "Reference" "#PWR0309"
+			(at 69.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_LED"
+			(at 69.85 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VL\""
+			(at 69.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4c5a317-8b7a-4536-9e08-a99153fd1b7e")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69573907-5df0-4881-9c05-aff48aa6ca96")
+		(property "Reference" "#PWR0310"
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e87ee784-c3d2-43e0-a153-e36ec455603c")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ddb03b-398e-45d6-9dae-9cfc4b27783d")
+		(property "Reference" "TP8"
+			(at 90.17 57.9119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 60.4519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d5c85fa-85e9-4424-b4c6-1232385cb67a")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LVC1T45DBV")
+		(at 66.04 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e416e43-bd74-41c5-af1b-1e5d425c0bc7")
+		(property "Reference" "U87"
+			(at 83.82 49.4598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1T45DBV"
+			(at 83.82 51.9998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 66.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+			(at 43.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6"
+			(at 66.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9a94d4b5-710e-4035-87cd-7de10bff870a")
+		)
+		(pin "5"
+			(uuid "572514f4-35d4-41f6-9ee1-8b887ba0b69c")
+		)
+		(pin "6"
+			(uuid "9d811240-c181-4f94-8f1c-761d531bd1b0")
+		)
+		(pin "1"
+			(uuid "a6895bd4-cd3b-45f3-aa1b-772e269e3c6f")
+		)
+		(pin "2"
+			(uuid "e900e8b3-b98a-4397-b99d-dd98dfc13da9")
+		)
+		(pin "3"
+			(uuid "62325003-470e-4b0d-8971-6f0a9f1566c1")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "U87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe6afe1-a269-4fd3-bfae-f97c57ff03cc")
+		(property "Reference" "C41"
+			(at 57.15 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.15 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.3052 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3c10413-3f20-4e70-af09-b7413fa9eec7")
+		)
+		(pin "1"
+			(uuid "55eea34b-8e5c-4a1b-b106-a12b8af89c7e")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 55.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c877821f-85fd-4790-8040-a77910cda7f2")
+		(property "Reference" "R9"
+			(at 41.91 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 41.91 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 54.102 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4274db0e-5dc0-4714-a9d2-236678378cc8")
+		)
+		(pin "1"
+			(uuid "f481acc1-d82e-45b8-996e-ba36d62711bf")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d515c570-9f79-40c9-8014-913445d1ec76")
+		(property "Reference" "#PWR0313"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f63fa5f0-67ea-4d42-991c-9ff5841e3ef7")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db7875d9-3a92-4aef-9c4e-ae9defcb9d60")
+		(property "Reference" "C42"
+			(at 82.55 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.55 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.7052 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cd4c56f-806f-48ea-ac65-d157f3cced9d")
+		)
+		(pin "1"
+			(uuid "f8ca7f7d-bc94-4e90-bca9-b3ea77dc5f3c")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 62.23 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8ee366-a6d6-462c-9d65-2735e24e8af5")
+		(property "Reference" "#PWR0308"
+			(at 62.23 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 62.23 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c13cad2-9a8c-450e-9bd2-751a296ec18e")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9638886-8e28-4b14-a04b-0e0f2da48bd5")
+		(property "Reference" "#PWR0473"
+			(at 52.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 47.752 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28b6e197-7300-47fd-861d-84d5d424b388")
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(reference "#PWR0473")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 168.91)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "018ed535-aabe-4df2-8620-e58aca50b573")
+		(property "Sheetname" "led76"
+			(at 157.48 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 171.45 180)
+			(uuid "62398886-d7f7-49a5-9b1b-31b8c5ad6893")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 171.45 0)
+			(uuid "7b08841f-d8d3-45c6-96b4-3cecf966059c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "166")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08b0a847-18c3-448e-a18a-fe61ff2f3383")
+		(property "Sheetname" "led27"
+			(at 180.34 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 106.68 180)
+			(uuid "b5c4a2bd-3b1c-4af5-b950-6030108a7376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 106.68 0)
+			(uuid "0d7610f2-3a17-43e5-86a9-436b2ccb5e64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "117")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b7dee8a-7b37-4026-9ac5-f339d5a2f7a2")
+		(property "Sheetname" "led29"
+			(at 226.06 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 106.68 180)
+			(uuid "33c313b1-3e94-4b42-b86d-a130a76b8e1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 106.68 0)
+			(uuid "7f7de225-b810-478a-8a3b-d98b64af89bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "119")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "11b5a27a-a708-4178-82cd-705aca79af6f")
+		(property "Sheetname" "led53"
+			(at 88.9 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 144.78 180)
+			(uuid "a32c5725-d43a-4066-943b-b6cbd3ba8754")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 144.78 0)
+			(uuid "82acd77a-a515-4d76-af89-dc7ec944f2aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "143")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "126ec917-5aca-4207-9ef7-eb0c47d87779")
+		(property "Sheetname" "led14"
+			(at 111.76 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 92.71 180)
+			(uuid "70b942e1-3b93-47bc-96b1-7c76ffe4222a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 92.71 0)
+			(uuid "561c694e-64b4-4ff5-9b63-0ef0c9388137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "104")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14e0b6d5-590e-4edc-a236-0e935980ef4c")
+		(property "Sheetname" "led69"
+			(at 226.06 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 157.48 180)
+			(uuid "f8c9a47e-2440-4736-9999-a4d9426a6d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 157.48 0)
+			(uuid "6e5a3dd0-c24d-4dd6-b6ac-a1e1ff785eaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "159")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1630e449-4ea5-44d0-b05c-3d47cc8fd970")
+		(property "Sheetname" "led68"
+			(at 203.2 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 157.48 180)
+			(uuid "59db3129-8ed0-4d60-afe3-8df60d5237d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 157.48 0)
+			(uuid "553847a5-c2c1-42ac-b98f-aeadcfcda102")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "158")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "17c1b65f-858b-447e-82db-7fff2212dd76")
+		(property "Sheetname" "led59"
+			(at 226.06 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 144.78 180)
+			(uuid "b3a32fb4-4d7e-4ae6-b610-fce41334919c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 144.78 0)
+			(uuid "57bf5d1c-2b7a-4b1f-84c8-5fe9acf62670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "149")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19accd65-4813-48ce-9cff-0570943bf168")
+		(property "Sheetname" "led62"
+			(at 66.04 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 157.48 180)
+			(uuid "112077c6-ceae-46c9-a7aa-8d5d7d799a48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 157.48 0)
+			(uuid "134851b9-6a6b-4295-bec2-174c7553a47e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "152")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1c9f98eb-85ce-4211-8fbf-ece147a24a30")
+		(property "Sheetname" "led43"
+			(at 88.9 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 132.08 180)
+			(uuid "f13f93af-213e-4881-881c-2680c629237d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 132.08 0)
+			(uuid "c579b7fc-756f-4cf8-b4b5-29a7d4951499")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "133")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "28bbf6bc-cac3-426a-99f8-a6223d0fb172")
+		(property "Sheetname" "led57"
+			(at 180.34 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 144.78 180)
+			(uuid "2dc327c2-2a94-4b56-883b-096f79d383a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 144.78 0)
+			(uuid "382574ae-e21f-4ad9-92d0-18972d7b8c76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "147")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "293d89c1-36b1-4e01-b31c-75e31852ea28")
+		(property "Sheetname" "led55"
+			(at 134.62 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 144.78 180)
+			(uuid "526ccc2a-9827-40cb-9872-9a30bf60c63b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 144.78 0)
+			(uuid "24a3874a-ddf1-4dce-8330-9e6836de659b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "145")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2b148117-585c-422d-b17f-27ab4bad1b9b")
+		(property "Sheetname" "led37"
+			(at 180.34 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 119.38 180)
+			(uuid "21f81f28-9610-494f-a51b-59387081f2a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 119.38 0)
+			(uuid "f8eab484-0ad4-474c-8b2b-0449c56f31db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "127")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2b274aa5-7cf7-424e-9316-ea2117f607b6")
+		(property "Sheetname" "led26"
+			(at 157.48 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 106.68 180)
+			(uuid "84cc3119-38c8-45f1-a465-d8cf89b10b19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 106.68 0)
+			(uuid "0115edbe-1e42-4743-8301-32824d83c6f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "116")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3023f4fd-8ee6-4312-8680-03274b82a32b")
+		(property "Sheetname" "led65"
+			(at 134.62 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 157.48 180)
+			(uuid "cb530d53-721c-4d46-81b4-ebfe34f827cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 157.48 0)
+			(uuid "b13f02c4-cd9b-4e68-b5fd-8355fa35eaf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "155")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3175e20c-428a-46fc-92c4-fcc3477bddac")
+		(property "Sheetname" "led15"
+			(at 134.62 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 92.71 180)
+			(uuid "a5687017-444b-4a33-992a-9b4b004edd73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 92.71 0)
+			(uuid "92994e50-4e92-475d-8c85-7a772b9dff0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "105")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "33322c10-0f4c-4f66-ba67-bf6f962a8497")
+		(property "Sheetname" "led19"
+			(at 226.06 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 92.71 180)
+			(uuid "4fa0bac8-77c4-4664-9eb5-5de96abca645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 92.71 0)
+			(uuid "a2935dcb-cbed-4e08-ae0c-c707a18fd032")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "109")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "341ab30d-e15d-4ba7-abb4-e07abe335c46")
+		(property "Sheetname" "led17"
+			(at 180.34 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 92.71 180)
+			(uuid "36db8656-dc5e-4438-b037-1f930587ebb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 92.71 0)
+			(uuid "550eb313-e015-4caf-8f49-dec9c4762726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "107")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "345130e0-9798-4abc-8d1d-a38c984e9146")
+		(property "Sheetname" "led7"
+			(at 180.34 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 78.74 180)
+			(uuid "6147808e-377b-40b2-8ae0-d7eb22c995f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 78.74 0)
+			(uuid "b13a295e-7e1d-4e7e-83ea-d3242a1f09e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "97")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3498f095-2437-4816-a6f0-10ca8f67537a")
+		(property "Sheetname" "led8"
+			(at 203.2 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 78.74 180)
+			(uuid "c986d9fe-e4e0-4643-b1e6-7d9048334c0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 78.74 0)
+			(uuid "2ea50dfa-f29d-4b48-8256-4d67581d2652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "98")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 129.54)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "37b4ab34-0f3a-4041-a566-e9295c91e78c")
+		(property "Sheetname" "led40"
+			(at 19.05 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 132.08 180)
+			(uuid "c0e963d7-eb01-4af5-a93e-0d978a6384ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 132.08 0)
+			(uuid "645067f1-bb47-4c0b-b704-6705930666ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "130")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3c5694b1-df7a-4baf-9333-a53576f7eeda")
+		(property "Sheetname" "led38"
+			(at 203.2 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 119.38 180)
+			(uuid "8f717cc7-086b-4164-82d8-25b0b4f138d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 119.38 0)
+			(uuid "3a2bcbac-7e4b-4cd0-9c8d-fbe6b8791481")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "128")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3d0228b4-6560-4609-ba68-8651a894a0ab")
+		(property "Sheetname" "led41"
+			(at 43.18 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 132.08 180)
+			(uuid "9836d88a-32a7-49ff-94be-492024f88999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 132.08 0)
+			(uuid "5c3e5f0c-cecb-4e6f-bcff-a43ca9434aab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "131")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3f6831f8-bd73-4e0d-98bc-a10f2b4c8193")
+		(property "Sheetname" "led18"
+			(at 203.2 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 92.71 180)
+			(uuid "120804da-cfd6-420e-acdd-f2b5acc02077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 92.71 0)
+			(uuid "6b4f438c-cecd-4b02-9220-5c91b0d65c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "108")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 90.17)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "462d34f2-7650-421d-9b28-c8f65157ec08")
+		(property "Sheetname" "led10"
+			(at 19.05 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 92.71 180)
+			(uuid "ad0ba908-8694-4c1a-9d1e-78d38e75ba15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 92.71 0)
+			(uuid "a7c91f9f-68bd-416b-aecf-cc7cbb66ed58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "100")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "47623a4a-468c-46b4-9f20-4721c49607aa")
+		(property "Sheetname" "led64"
+			(at 111.76 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 157.48 180)
+			(uuid "11cd9a2f-982b-456a-98b1-535376dede2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 157.48 0)
+			(uuid "8fccb0b9-9935-42e7-bb05-e2d65621ab61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "154")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4779de5b-25c9-42c3-b1d7-7311f70f8aed")
+		(property "Sheetname" "led24"
+			(at 111.76 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 106.68 180)
+			(uuid "b35a7d47-23db-46bd-817e-06b50552ddb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 106.68 0)
+			(uuid "84955f74-0710-4aee-b7e7-c2b3362be4fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "114")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ec11dc5-e276-4d70-8a25-944f87881a58")
+		(property "Sheetname" "led48"
+			(at 203.2 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 132.08 180)
+			(uuid "e0efcb95-6b6a-4b60-960e-ad4fdf09d491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 132.08 0)
+			(uuid "f263c0ab-0030-4dea-b049-26b464054a05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "138")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "52393523-b3b2-4301-b0b5-229a1f02f5e3")
+		(property "Sheetname" "led39"
+			(at 226.06 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 119.38 180)
+			(uuid "1d6d2a4b-929e-4e04-a018-92453bebcd99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 119.38 0)
+			(uuid "7563bbdc-c756-4156-8fca-b86e119c9abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "129")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a5a3445-06e6-4019-9561-8a2dd1e1f33c")
+		(property "Sheetname" "led25"
+			(at 134.62 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 106.68 180)
+			(uuid "97e1ff75-41d2-4d85-a6e5-b5cb3434cd58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 106.68 0)
+			(uuid "7a20b8e0-b811-4beb-bfb5-5afe8650186d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "115")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5cd0e5f3-2046-4000-b1e7-296a00e204ca")
+		(property "Sheetname" "led35"
+			(at 134.62 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 119.38 180)
+			(uuid "43e9ef7f-d92b-4547-8354-be6c89df5258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 119.38 0)
+			(uuid "65d9f4db-dc5f-4b5b-b6a8-a1c295475261")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "125")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d693b1a-764e-45a8-8214-295e47975114")
+		(property "Sheetname" "led16"
+			(at 157.48 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 92.71 180)
+			(uuid "74542080-14eb-4455-b1d1-2859713fb881")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 92.71 0)
+			(uuid "1a475c79-c65b-4b1b-a4be-8671a32c20a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "106")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6123a079-45f7-4f6d-a521-8e008f9d3fd0")
+		(property "Sheetname" "led1"
+			(at 43.18 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 78.74 180)
+			(uuid "9a30413d-06eb-42ee-bc1e-f352e6516769")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 78.74 0)
+			(uuid "14c9befc-2805-4b33-bdc1-288cfb4f3843")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "91")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "63cc1b16-5743-4341-95b8-af241070bee0")
+		(property "Sheetname" "led28"
+			(at 203.2 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 106.68 180)
+			(uuid "b6e3c51c-f49e-4fa5-b988-6879b3cbf925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 106.68 0)
+			(uuid "367d6b32-17c9-47e8-a43d-4bbf41a82cac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "118")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 168.91)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6d37bf3b-1f36-4da7-9aef-b5bcb00a8d36")
+		(property "Sheetname" "led73"
+			(at 88.9 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 171.45 180)
+			(uuid "4a094bdb-f825-4aeb-a960-a1cbbdcfd3eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 171.45 0)
+			(uuid "88d20659-c03b-4390-8dc7-7530a40db01f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "163")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "789c5d08-698a-49c1-8cc3-3c68b8888762")
+		(property "Sheetname" "led61"
+			(at 43.18 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 157.48 180)
+			(uuid "1d90b292-35db-4341-bd33-9b50bad7c4c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 157.48 0)
+			(uuid "2b54f154-fff5-45be-ba03-1be6022298a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "151")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 116.84)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "78ca2f51-fb5e-4085-b0d2-4a3b976101a7")
+		(property "Sheetname" "led30"
+			(at 19.05 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 119.38 180)
+			(uuid "79026a20-12b7-42bb-9ede-6ce827ede39f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 119.38 0)
+			(uuid "8ca4c430-9d4e-4dcf-90b2-31ae8a50332f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "120")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "790e1ef3-bdac-4c5c-bde2-14711f42610e")
+		(property "Sheetname" "led49"
+			(at 226.06 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 132.08 180)
+			(uuid "94a5343a-5c06-4778-9b0a-44663071ccce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 132.08 0)
+			(uuid "f6dc673d-f0e7-44c4-b5b5-4ff2ed2028dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "139")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7b2ce3d7-2334-4fd1-92b2-cc5da8b967b1")
+		(property "Sheetname" "led67"
+			(at 180.34 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 157.48 180)
+			(uuid "90e5bb1b-f5d5-4502-84a0-8bf6589c9948")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 157.48 0)
+			(uuid "0ff2fa8b-be0d-40ff-ab7d-60a33af5a0be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "157")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7b62a08d-96b5-473f-a485-5726a29e38ae")
+		(property "Sheetname" "led58"
+			(at 203.2 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 203.2 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 203.2 144.78 180)
+			(uuid "23d96aa5-9ee1-476b-b2d5-91f35c91accb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 217.17 144.78 0)
+			(uuid "c949a076-0bb7-4717-af3f-636adf7c0475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "148")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7ff3a03c-a58a-43e6-955d-444f9bea5abe")
+		(property "Sheetname" "led5"
+			(at 134.62 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 78.74 180)
+			(uuid "94e66a11-1339-47a1-9095-b7ff3013f2fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 78.74 0)
+			(uuid "a4e9187a-6001-43c9-b697-29c7b506b175")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "95")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80ea9f4c-cff9-4c1f-b00d-bf04e527301a")
+		(property "Sheetname" "led54"
+			(at 111.76 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 144.78 180)
+			(uuid "8f6a8d55-39f9-44ff-8b14-66b633e5305e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 144.78 0)
+			(uuid "99229bcf-702a-4de0-be0d-0a35a962c56a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "144")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 142.24)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8193776c-b1a2-464e-a6c3-fecd26600466")
+		(property "Sheetname" "led50"
+			(at 19.05 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 144.78 180)
+			(uuid "b20ede77-7e28-4158-8da5-591bbbc9f509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 144.78 0)
+			(uuid "bdcd88ff-9148-4594-8d63-b09f84393af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "140")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "827f8ae0-e703-43b0-90dc-427f5f560edb")
+		(property "Sheetname" "led47"
+			(at 180.34 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 180.34 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 180.34 132.08 180)
+			(uuid "51e28c8d-d5ed-41fa-8033-64a2d6550135")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 194.31 132.08 0)
+			(uuid "23c31891-a7b5-48ca-8aa6-f9ecfa9a6872")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "137")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8584b9fb-d0db-493c-bd57-a14724dbe2cf")
+		(property "Sheetname" "led36"
+			(at 157.48 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 119.38 180)
+			(uuid "f576c90e-39ef-48f1-b8bf-f1b282fdeeaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 119.38 0)
+			(uuid "7e0f59ac-9995-4e74-ab18-5675ebbfd8d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "126")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8703b07c-53c7-463f-8c98-3f75ff796315")
+		(property "Sheetname" "led66"
+			(at 157.48 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 157.48 180)
+			(uuid "088ad0f3-d37e-49ed-9783-2ab120bc3ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 157.48 0)
+			(uuid "f13775cd-5ebc-4470-ba91-a78f00eaf8dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "156")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 168.91)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a8f8482-4dcc-4f38-97ed-69b6147c00bf")
+		(property "Sheetname" "led74"
+			(at 111.76 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 171.45 180)
+			(uuid "60296f60-a07e-4ef0-84e8-4c1072488b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 171.45 0)
+			(uuid "eb150366-eea9-4dca-b41d-0f649c1d1c62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "164")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9265cefc-cd70-4920-b7ba-934d3ea4d4b3")
+		(property "Sheetname" "led45"
+			(at 134.62 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 132.08 180)
+			(uuid "643aeeb8-6c09-41f7-b2e0-3db781655529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 132.08 0)
+			(uuid "495517d1-40a3-4891-99aa-1bf8da7413d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "135")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 154.94)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "928762dd-1258-4349-bd62-411c2b23ba90")
+		(property "Sheetname" "led63"
+			(at 88.9 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 157.48 180)
+			(uuid "7db2e33d-8462-406d-a8ae-268ca1d4ed3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 157.48 0)
+			(uuid "776e5c5a-f3e0-4620-b96f-154e5ae65430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "153")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 154.94)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "94401690-23ee-486e-95e7-e20775e46525")
+		(property "Sheetname" "led60"
+			(at 19.05 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 157.48 180)
+			(uuid "64daf367-99f7-4458-85a7-8544c23387da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 157.48 0)
+			(uuid "8cc76dbb-085a-482c-91b4-a719ec97eae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "150")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9c42a605-d7b7-41cc-92bc-713e52e14c47")
+		(property "Sheetname" "led9"
+			(at 226.06 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 226.06 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 78.74 180)
+			(uuid "a00f3be3-0b9e-4f5f-9849-8743be40edeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 240.03 78.74 0)
+			(uuid "549f65ab-73e8-4131-bc29-885b19794a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a74bbfb4-e6b3-44f4-86f5-607221b557c8")
+		(property "Sheetname" "led12"
+			(at 66.04 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 92.71 180)
+			(uuid "b3de61ac-529f-48d4-bb5e-9062240bb43e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 92.71 0)
+			(uuid "db85f4d0-dc46-4eaa-93bb-d79adf72263f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "102")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 168.91)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab558952-bddd-468b-a73b-662189fa37c7")
+		(property "Sheetname" "led70"
+			(at 19.05 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 171.45 180)
+			(uuid "ff26cd70-d72e-4009-aa24-3ada08e6b8cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 171.45 0)
+			(uuid "93a9fda2-15c1-4c42-8436-8a99d41a38e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "160")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b12431c7-94d0-48cf-857b-273c56ced58d")
+		(property "Sheetname" "led51"
+			(at 43.18 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 144.78 180)
+			(uuid "b19e67c4-326d-4e23-95b7-76e82ebe5c36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 144.78 0)
+			(uuid "9fe5e018-51b5-4257-bfad-6c18e8c1fd9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "141")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b2464c6a-9b03-4ab4-aed4-220a681392e6")
+		(property "Sheetname" "led46"
+			(at 157.48 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 132.08 180)
+			(uuid "f6c6a90b-e470-46a7-a918-050e15751ba2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 132.08 0)
+			(uuid "86d901a9-c963-46d0-8156-d37d905c0ebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "136")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b3ba6b3d-218a-4e88-a4c7-380196acbd72")
+		(property "Sheetname" "led21"
+			(at 43.18 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 106.68 180)
+			(uuid "639da340-3c83-4dc1-9b63-ccd130b305ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 106.68 0)
+			(uuid "55be1775-5a4c-4a1d-9542-6965319f5977")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "111")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b4da3e9d-185c-4aff-8087-81b9a79fa71f")
+		(property "Sheetname" "led33"
+			(at 88.9 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 119.38 180)
+			(uuid "abff15a5-9e57-4754-b6ac-340710d22c69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 119.38 0)
+			(uuid "1471a7c1-f1fe-43ee-939b-79c5e1acd2a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "123")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7ee1398-dad2-44ab-adcd-fd5390415538")
+		(property "Sheetname" "led4"
+			(at 111.76 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 78.74 180)
+			(uuid "a5978318-e71b-4641-9f74-e9f7e4bd77b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 78.74 0)
+			(uuid "ff07aff2-26dc-4285-b2d2-242d17e69749")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "94")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8320c87-6a82-474e-8341-02cce981f38f")
+		(property "Sheetname" "led11"
+			(at 43.18 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 92.71 180)
+			(uuid "b16b1b44-2c1c-41f1-a6ea-ebb529272b48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 92.71 0)
+			(uuid "8df90efc-8145-418c-9432-918e508bbe75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "101")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 168.91)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c3c42edb-0a06-4625-a5b2-bc76fa41853d")
+		(property "Sheetname" "led72"
+			(at 66.04 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 171.45 180)
+			(uuid "a20d5f2d-dc8a-4a32-80ca-2e96fe50291d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 171.45 0)
+			(uuid "87a9bb51-dc93-4702-b3ad-84f5d39a3eca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "162")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c3cc0f3e-85d6-4c4f-9dc9-a240da2d8d84")
+		(property "Sheetname" "led23"
+			(at 88.9 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 106.68 180)
+			(uuid "ac02ddff-ce1f-466e-bd95-497c7bb7d77a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 106.68 0)
+			(uuid "a7ced3a5-c16f-402e-b5f6-be24958210b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "113")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 104.14)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c5eb6e17-7cd3-4699-b006-7436acc79db0")
+		(property "Sheetname" "led22"
+			(at 66.04 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 106.68 180)
+			(uuid "d57c0439-1796-4cb2-a1df-cefe8394ecfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 106.68 0)
+			(uuid "0c0495a6-2d11-4d18-94dd-e8fab1bfcdd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "112")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 168.91)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c63f5441-d853-4086-9e3c-6ff459dc41d6")
+		(property "Sheetname" "led75"
+			(at 134.62 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 134.62 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 134.62 171.45 180)
+			(uuid "62b1414d-3754-460d-b37e-00a7b069045b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 148.59 171.45 0)
+			(uuid "22ad0337-dc8f-4e5f-92e1-c74271104e95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "165")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c64c1e66-23a8-4860-8558-a3f1d8d331a6")
+		(property "Sheetname" "led31"
+			(at 43.18 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 119.38 180)
+			(uuid "2e7f00d4-77da-4173-acf1-3fd10d849ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 119.38 0)
+			(uuid "e74a0527-e62c-45b7-9fe5-3666502c5062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "121")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf3099b9-46c1-4b08-81cb-91d0b07c4743")
+		(property "Sheetname" "led56"
+			(at 157.48 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 144.78 180)
+			(uuid "7dca9a38-0ad0-451b-b62e-8ebfa2be17ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 144.78 0)
+			(uuid "158c7ff9-0e0a-4d7e-93b7-dfc1d6bf288a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "146")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 104.14)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf8df7cf-0bc7-47d1-a477-d80c8d2f2371")
+		(property "Sheetname" "led20"
+			(at 19.05 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 106.68 180)
+			(uuid "783ab1f4-0d48-47b3-ae40-394ff3bd2b05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 106.68 0)
+			(uuid "c0a37f76-6d86-426f-86d6-36244b3778f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "110")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d694eb25-7aa6-4014-8201-98d4fea3b0fd")
+		(property "Sheetname" "led34"
+			(at 111.76 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 119.38 180)
+			(uuid "4b919033-3e97-4661-8eeb-17d64296564d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 119.38 0)
+			(uuid "9b63cf94-bcff-45ce-90d3-51a68a452f2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "124")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d759504c-c1c3-4788-89d4-6746aa441690")
+		(property "Sheetname" "led44"
+			(at 111.76 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 111.76 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 111.76 132.08 180)
+			(uuid "419135d1-c1f5-42d3-9ad7-b09f69e0d8a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 125.73 132.08 0)
+			(uuid "a668aa86-dfb1-42fe-8515-28ac73bb48a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "134")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 116.84)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d7dd5d14-c873-4d20-a1ba-fa271660b183")
+		(property "Sheetname" "led32"
+			(at 66.04 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 119.38 180)
+			(uuid "78f90533-6f8f-4e28-acd5-4ea07f447440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 119.38 0)
+			(uuid "5504f2e3-132b-4674-bd4e-dfa246636d3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "122")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 76.2)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d803972f-4485-4a12-bcac-bc2cb8c8a1b6")
+		(property "Sheetname" "led"
+			(at 19.05 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 19.05 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 78.74 180)
+			(uuid "6fd2d239-5383-4744-a4ed-9429ac5d1507")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 34.29 78.74 0)
+			(uuid "3b8865fe-34f8-4787-8a28-1e6f657c2518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "90")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d84586d9-68cd-41fc-a269-6ef9d8bc35e2")
+		(property "Sheetname" "led6"
+			(at 157.48 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 157.48 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 157.48 78.74 180)
+			(uuid "2458de4b-46b3-4db2-980b-cdf1eaa462cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 171.45 78.74 0)
+			(uuid "e05b0435-c1df-456c-91b6-bbe136ab9dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "96")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 142.24)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e56ae491-5bf6-4785-9e81-c0b410c2655c")
+		(property "Sheetname" "led52"
+			(at 66.04 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 144.78 180)
+			(uuid "10532864-e6f5-49c9-b38c-aa42b905509d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 144.78 0)
+			(uuid "a400dba6-e53a-4749-920f-a2a1069c6f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "142")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 90.17)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e8873745-6c5d-4b74-b23e-aa5f6a9215f8")
+		(property "Sheetname" "led13"
+			(at 88.9 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 92.71 180)
+			(uuid "97e684d3-81da-4fdc-8e5e-d62f96276816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 92.71 0)
+			(uuid "16f26468-89c1-4288-bc1a-5816595182d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "103")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 168.91)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ed9b06d0-9c1e-4f7c-808d-78aa06b23594")
+		(property "Sheetname" "led71"
+			(at 43.18 168.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 43.18 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 43.18 171.45 180)
+			(uuid "108229e2-f6bc-4c76-bbff-da3766c98a8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 57.15 171.45 0)
+			(uuid "72a85f6d-2b92-41f5-bf03-6599638b8ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "161")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f67f6fdb-795e-4f9f-9f23-f523eda0218d")
+		(property "Sheetname" "led3"
+			(at 88.9 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 88.9 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 88.9 78.74 180)
+			(uuid "7c16190c-8e54-4214-b685-044215610f16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 102.87 78.74 0)
+			(uuid "b5f0577e-ecd4-4ae7-8191-d7c38607b9ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "93")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 129.54)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f903e4a7-eac9-49bd-a372-01b5f3c73f27")
+		(property "Sheetname" "led42"
+			(at 66.04 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 132.08 180)
+			(uuid "cbcf6063-591b-473d-bc6f-7a09d52b0ea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 132.08 0)
+			(uuid "79f934b7-b6e6-4188-a978-80a1026d09cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "132")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 76.2)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fac639c7-73d2-4698-af41-350a168c8c36")
+		(property "Sheetname" "led2"
+			(at 66.04 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 66.04 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 66.04 78.74 180)
+			(uuid "fef03880-ca01-4bad-ab4c-abfd3f022a93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 78.74 0)
+			(uuid "8a467490-a3c7-43e0-8c99-98ead68ea5f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "makeyboard"
+				(path "/fdf51568-632f-4761-8398-b51798d1e133/5480a78e-af53-4851-8144-525cdc30e713"
+					(page "92")
+				)
+			)
+		)
+	)
 )
